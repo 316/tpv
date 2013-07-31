@@ -1,20 +1,25 @@
 {{extend 'layout.html'}}
 
   <script src="{{=URL('static','tpvjs/ventas.js')}}"></script>
-
+<div class="subtotal">
+  
 <h2>Nueva venta</h2>
 <input class="q" type="text" name="codigo" value="" />
 <button class="agregar">Agregar</button>
 
-<table class="table bordered" width="" cellspacing="" cellpadding="" border="0">
+<table class="table table-bordered table-striped table-hoover" width="" cellspacing="" cellpadding="" border="0">
   <thead>
-    <th>Codigo</th>
+    <th>Cant.</th>
     <th>Nombre</th>
-    <th>Categoria</th>
-    <th>Precio</th>
+    <th>P/ unitario</th>
+    <th>Subtotal</th>
   </thead>
   <tbody>
     
-  </tbody>
+  </tbody> 
 </table>
 
+
+<div class="pull-right">
+  <label class="label label-success"><h4>Total $:</h4></label><label class="label label-success"><h4 class="total">0,00</h4></label>
+</div>
