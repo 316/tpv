@@ -64,7 +64,7 @@
 ###############################################################################
 #    INITIALISATION
 ###############################################################################
-
+import time
 import re
 table_field = re.compile('[\w_]+\.[\w_]+')
 from gluon.sql import  Row, Rows, Set, Query,Table
@@ -85,7 +85,7 @@ powerTable = plugins.powerTable
 ###############################################################################
 
 class PowerTable(TABLE):
-    
+
     def __init__(self):
         
         #load attributes from plugin manager
@@ -97,7 +97,7 @@ class PowerTable(TABLE):
         orderby = powerTable.get('orderby',None)
         linkto = powerTable.get('linkto',None)
         upload = powerTable.get('upload',None)
-        truncate = powerTable.get('truncate',32)
+        truncate = powerTable.get('truncate',255)
         th_link = powerTable.get('th_link','')
         virtualfields = powerTable.get('virtualfields',None)
         keycolumn = powerTable.get('keycolumn',None)
@@ -205,14 +205,14 @@ class PowerTable(TABLE):
                     _title.append(H3(getattr(virtualfields,'virtualtooltip').label))
                     _title.append(SPAN(record.virtual.get('virtualtooltip',T('Record %s' % str(rc+1)))))
                 else:
-                    _title = T('Record %s' % str(rc+1))
+                    _title = T('Registro %s' % str(rc+1))
             else:
-                _title = T('Record %s' % str(rc+1))
+                _title = T('Registro %s' % str(rc+1))
                 
             #setting the id and key for every <tr> based on required keycolumn    
             try:
                 _id = record[keycolumntbl][keycolumnfld]
-            except KeyError:
+            except (KeyError, AttributeError):
                 if virtualfields:
                     _id = record[sqlrows.colnames[0].split('.')[0]].id
                 else:
@@ -238,7 +238,7 @@ class PowerTable(TABLE):
                         row.append(TD(r))
                         continue
                     else:
-                        raise KeyError("Column %s not found (powerTable)" % colname)
+                        raise KeyError("Columna %s no encontrada (powerTable)" % colname)
                 (tablename, fieldname) = colname.split('.')
                 try:
                     field = sqlrows.db[tablename][fieldname]
@@ -251,7 +251,7 @@ class PowerTable(TABLE):
                 elif fieldname in record:
                     r = record[fieldname]
                 else:
-                    raise SyntaxError, 'something wrong in Rows object'
+                    raise SyntaxError, 'Algo ha fallado en el objeto fila'
                 r_old = r
                 if not field:
                     pass
@@ -297,7 +297,8 @@ class PowerTable(TABLE):
                     ur = unicode(r, 'utf8')
                     if truncate!=None and len(ur) > truncate:
                         r = ur[:truncate - 3].encode('utf8') + '...'
-                        
+                elif field.type == 'date': 
+                    r = time.strftime(field.formatter(r))        
                 try:
                     tdclass = colname+'.'+field.type
                 except AttributeError:
@@ -316,7 +317,7 @@ class PowerTable(TABLE):
         if columnsearch:            
             row = [''] if 'details'in powerTable.extra else []
             for c in columns:
-                row.append(TH(INPUT(_type='text',_value=T('Search in %s' % headers[c]),_class='search_init')))
+                row.append(TH(INPUT(_type='text',_value=T('Buscar en %s' % headers[c]),_class='search_init')))
             components.append(TFOOT(TR(*row)))
         #columnsearch
 
@@ -335,7 +336,7 @@ def getfakerow():
     else:
         b = DAL('sqlite:memory:')
         
-    b.define_table('fake',Field('nothing',label='Nothing Found'))
+    b.define_table('fake',Field('nothing',label='No se ha encontrado nada'))
     b.fake.insert(nothing='You need to define a datasource')
     return b(b.fake).select(b.fake.nothing)
 
@@ -379,7 +380,7 @@ def plugin_datatable_include():
 def dbg(*attributes):
     print '----------\n'
     print attributes
-    while not raw_input('\nPRESS TO CONTINUE\n'):
+    while not raw_input('\nPresione para continuar\n'):
         break
 ###############################################################################
 #    JS STRINGS
@@ -400,19 +401,19 @@ return nRow
 ###############################################################################
 powerTable._class = powerTable.get('_class','powerTable')
 powerTable.columnsearch = powerTable.get('columnsearch', False)
-powerTable.defaultlanguage =  {'sLengthMenu': str(T('Display _MENU_ entries')),
-                        'sZeroRecords': str(T('Nothing found - sorry')),
-                        'sInfo': str(T('Showing _START_ to _END_ of _TOTAL_ records')),
-                        'sInfoEmpty': str(T('Showing 0 to 0 of 0 records')),
-                        'sInfoFiltered': str(T('(filtered from _MAX_ total records)')),
+powerTable.defaultlanguage =  {'sLengthMenu': str(T('Mostrar _MENU_ entradas')),
+                        'sZeroRecords': str(T('Nada encontrado - disculpe')),
+                        'sInfo': str(T('Mostrando desde _START_ hasta _END_ de _TOTAL_ registros')),
+                        'sInfoEmpty': str(T('Mostrando desde 0 hasta 0 de 0 registros')),
+                        'sInfoFiltered': str(T('(filtrando de _MAX_ registros totales)')),
                         "sInfoPostFix":  "",
-                        "sProcessing":  str(T("Processing...")),
+                        "sProcessing":  str(T("Procesando...")),
                         "sUrl":"",
-                        "sSearch":str(T('Search:')),
-                        "oPaginate": {"sFirst":str(T('First')),
-                                      "sPrevious":str(T('Previous')),
-                                      "sNext":str(T('Next')),
-                                      "sLast":str(T('Last'))}
+                        "sSearch":str(T('Buscar:')),
+                        "oPaginate": {"sFirst":str(T('Primero')),
+                                      "sPrevious":str(T('Anterior')),
+                                      "sNext":str(T('Siguiente')),
+                                      "sLast":str(T('Ultimo'))}
                         }
 
 
@@ -434,7 +435,8 @@ powerTable.dtfeatures['bSortClasses'] = powerTable.dtfeatures.get('bSortClasses'
 powerTable.dtfeatures['sScrollY'] = powerTable.dtfeatures.get('sScrollY','300px')
 powerTable.dtfeatures['sScrollX'] = powerTable.dtfeatures.get('sScrollX','100%')
 ##OPTIONAL##
-#dtfeatures['bRetrieve'] = 'true'
+#powerTable.dtfeatures['bRetrieve'] = 'true'
+#powerTable.dtfeatures['bDestroy'] = 'true'
 #"bStateSave": true
 #"sScrollY": "100%",
 #"bScrollCollapse": true,
@@ -510,7 +512,7 @@ def plugin_powertable():
 	 */
 	var nCloneTh = document.createElement( 'th' );
 	var nCloneTd = document.createElement( 'td' );
-	nCloneTd.innerHTML = '<img src="%(imageurl)s" alt="Click to see details" title="Click for details" style="cursor:pointer;">';
+	nCloneTd.innerHTML = '<img src="%(imageurl)s" alt="Click para ver detalles" title="Click para detalles" style="cursor:pointer;">';
 	nCloneTd.className = "dtclick center";
 	
         $('.%(_class)s tfoot tr').each( function () {
@@ -539,7 +541,7 @@ def plugin_powertable():
         detailsclick = """
     /*click on image to show details*/
                     
-                    $('.%(_class)s tbody td.dtclick img').live( 'click', function () {
+                    $('.%(_class)s tbody').delegate('td.dtclick img', 'click', function () {
 					var nTr = this.parentNode.parentNode;
                                         var rid = this.parentNode.parentNode.getAttribute('id');
                                         var key = this.parentNode.parentNode.getAttribute('key');
@@ -548,16 +550,16 @@ def plugin_powertable():
 					{
 						/* This row is already open - close it */
 						this.src = "%(openurl)s";
-                                                this.title = "Click for details";
-                                                this.alt =  "Open Details";
+                                                this.title = "Click para detalles";
+                                                this.alt =  "Abrir Detalles";
 						oTable.fnClose( nTr );
 					}
 					else
 					{
 						/* Open this row */
 						this.src = "%(closeurl)s";
-                                                this.title = "Click to close details";
-                                                this.alt =  "Close Details";
+                                                this.title = "Click para cerrar detalles";
+                                                this.alt =  "Cerrar Detalles";
 						oTable.fnOpen( nTr, fnFormatDetails(oTable,nTr,key,rid), 'details' );
                                                 ajax('%(detailscallback)s', ['dt_'+rid,'dtcols_'+rid], 'target'+rid+'div');
 					}
@@ -617,7 +619,7 @@ def plugin_powertable():
     if selectrow:    
         rowclick = """
                  /* Click on row event handler */
-	$('.%(_class)s tbody tr.clickable').live('click', function () {
+	$('.%(_class)s tbody').delegate('tr.clickable','click', function () {
 		var aData = oTable.fnGetData( this );
 		var iId = aData[0];
 		
