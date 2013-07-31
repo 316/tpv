@@ -1,0 +1,1026 @@
+articulos.id,articulos.codigo,articulos.nombre,articulos.precio,articulos.existencia
+1,7790310001486,3d 38 gr,0.00,0
+2,7790310980774,3d queso 85 gr,0.00,0
+3,77910318,43/70,0.00,0
+4,77910431,43/70 largo,0.00,0
+5,7791813421528,7up 1500,0.00,0
+6,100000024,7up 237,0.00,0
+7,7791813420521,7up 500,0.00,0
+8,7791813421542,7up free 1500,0.00,0
+9,7791813420491,7up free 500,0.00,0
+10,7792200000128,9 de oro agridulce,0.00,0
+11,7792200000319,9 de oro azucarado,0.00,0
+12,7792200000159,9 de oro salado,0.00,0
+13,7791337571853,actimel ,0.00,0
+14,7791337222151,activia ciruela,0.00,0
+15,7791337222212,activia kiwi,0.00,0
+16,7793640215486,actron 400,0.00,0
+17,7793640215523,actron 600,0.00,0
+18,7791564012495,adler quesitos azul,0.00,0
+19,7791564013355,adler quesitos gruyere,0.00,0
+20,7791564012525,adler quesitos salame,0.00,0
+21,7798065733485,agua 1500 sin gas sierra,0.00,0
+22,7790315000439,agua 1500 sin gas villavicen,0.00,0
+23,7798062547801,agua 500 cc. con gas villavic,0.00,0
+24,7792799000011,agua 500 cc. sin gas eco,0.00,0
+25,7798065733454,agua 500 cc. sin gas sierra,0.00,0
+26,7790315000446,agua 500 cc. sin gas villavic,0.00,0
+27,7798062547788,agua litro y 1/2 con gas,0.00,0
+28,7790040298804,aguila alfajor ,0.00,0
+29,77931528,aguila individual,0.00,0
+30,7790407031013,aguila taza 100 grs.,0.00,0
+31,131,album angry birds,0.00,0
+32,8018190049213,album era del hielo,0.00,0
+33,8018190025903,album floricienta,0.00,0
+34,1567603266145,album garfield,0.00,0
+35,100000189,album god,0.00,0
+36,7798018612027,album hadas,0.00,0
+37,8018190048759,album hombre araña,0.00,0
+38,7798141535026,album jumper,0.00,0
+39,100000188,album london 2012,0.00,0
+40,100000190,album looney,0.00,0
+41,100000186,album valiente,0.00,0
+42,100000181,album vengadores,0.00,0
+43,100000216,alfajor ambrosia,0.00,0
+44,100000035,alfajor ambrosia x 5,0.00,0
+45,100000144,alicates chicos,0.00,0
+46,100000145,alicates grandes,0.00,0
+47,100000010,alikal,0.00,0
+48,7790895640452,aquarius 500 manzana,0.00,0
+49,7790895641213,aquarius 500 naranja,0.00,0
+50,7790895640445,aquarius 500 pera,0.00,0
+51,7790895640469,aquarius 500 pomelo,0.00,0
+52,7790895004032,aquarius 500 pomelo rosado,0.00,0
+53,7790895641206,aquarius 500 uva,0.00,0
+54,7790895640483,aquarius litro manzana,0.00,0
+55,7790895641237,aquarius litro naranja,0.00,0
+56,7790895640476,aquarius litro pera,0.00,0
+57,7790895640490,aquarius litro pomelo,0.00,0
+58,7790895004049,aquarius litro pomelo rosado,0.00,0
+59,7790895641220,aquarius litro uva,0.00,0
+60,7790580607418,arcor chocolate x 25 gr blan,0.00,0
+61,7790580607210,arcor chocolate x 25 gr negr,0.00,0
+62,100000104,argento tabaco pipa vainilla,0.00,0
+63,100000219,argento tabaco pipa whisky,0.00,0
+64,3057069079017,armador metal OCB,0.00,0
+65,3057069017019,armador plastico OCB,0.00,0
+66,100000036,arquito chupetin bolita,0.00,0
+67,100000011,aspirinetas solo x tira,0.00,0
+68,6932448200343,auricular acson as-ex34,0.00,0
+69,885170046368,auricular panasonic powerful bass,0.00,0
+70,6922900053501,auricular raia wtel0904,0.00,0
+71,6938408087306,auricular shuoni sn-730mp,0.00,0
+72,6930819500498,auricular suoyi superbass,0.00,0
+73,7792799000622,awafrut,0.00,0
+74,7791293028187,axe fusion,0.00,0
+75,7791293022437,axe marine,0.00,0
+76,7791293005362,axe music star,0.00,0
+77,7791293022130,axe musk,0.00,0
+78,7791293014951,axe twist,0.00,0
+79,7791293009193,axe vice,0.00,0
+80,7791100000481,azucar,0.00,0
+81,7792860016217,baby doll,0.00,0
+82,7790036000572,baggio 200 ml manzana,0.00,0
+83,7790036000619,baggio 200 ml multifruta,0.00,0
+84,7790036000565,baggio 200 ml naranja,0.00,0
+85,7790036973289,baggio 200 ml naranja light,0.00,0
+86,7790040996403,bagley alfajor blanco simple,0.00,0
+87,7790040991910,bagley alfajor blanco triple,0.00,0
+88,7790040996304,bagley alfajor negro simple,0.00,0
+89,7790040375000,bagley alfajor negro triple,0.00,0
+90,7790040999404,bagley salvado galletitas,0.00,0
+91,100000196,barbies,0.00,0
+92,100000012,bayaspiria c caliente,0.00,0
+93,100000013,bayaspirina  ,0.00,0
+94,100000014,bayaspirina  forte,0.00,0
+95,100000015,bayaspirina C,0.00,0
+96,100000105,beedies ganesh,0.00,0
+97,77935366,beldent berry fresh mint,0.00,0
+98,77995186,beldent chicle globo,0.00,0
+99,77935359,beldent citrus fresh mint,0.00,0
+100,77934062,beldent frutas rojas,0.00,0
+101,77934079,beldent frutos verdes,0.00,0
+102,7791249020043,beldent infinit amarillo,0.00,0
+103,7506105602468,beldent infinit menta,0.00,0
+104,7791249020142,beldent infinit rosa,0.00,0
+105,77933997,beldent menta,0.00,0
+106,77934000,beldent menta fuerte,0.00,0
+107,77934055,beldent menta polar,0.00,0
+108,77934086,beldent menta turbo,0.00,0
+109,77934024,beldent mentol,0.00,0
+110,77919342,beldent music mint,0.00,0
+111,77933553,beldent sensations rojo,0.00,0
+112,77933560,beldent sensations verde,0.00,0
+113,77934093,beldent tropical twist,0.00,0
+114,77934031,beldent white fresh mint,0.00,0
+115,100000106,bencina comun,0.00,0
+116,77915542,benson,0.00,0
+117,77915627,benson box,0.00,0
+118,77991430,biznike chico,0.00,0
+119,7792730020559,biznike grande,0.00,0
+120,77921598,bloquecito milka 30gr. Castañas,0.00,0
+121,7622300594268,bloquecito milka 30gr. Ddl blanco,0.00,0
+122,7622300399955,bloquecito milka 30gr. Ddl negro,0.00,0
+123,77921932,bloquecito milka 30gr. leche,0.00,0
+124,100000146,boligrafo birome,0.00,0
+125,100000037,bombon de fruta grande,0.00,0
+126,7790040613706,bon o bon alfajor simple,0.00,0
+127,7790040614000,bon o bon alfajor triple ,0.00,0
+128,77930002,bon o bon bombon,0.00,0
+129,7790580346614,bon o bon oblea blanca,0.00,0
+130,7790580346515,bon o bon oblea negra,0.00,0
+131,7792222041437,bonafide bocadito,0.00,0
+132,100000147,broche pelo grande c/u,0.00,0
+133,100000148,broche pelo mediano c/u,0.00,0
+134,100000149,broche pelo muy grande,0.00,0
+135,100000038,bubaloo,0.00,0
+136,22110079806,bubble tape,0.00,0
+137,100000208,buscapina,0.00,0
+138,100000040,butter toffies caramelos,0.00,0
+139,100000042,cabsha bombon          ,0.00,0
+140,77935175,cachafaz arroz amarillo,0.00,0
+141,77935182,cachafaz arroz blanco,0.00,0
+142,77930064,cachafaz arroz dorado,0.00,0
+143,77990310,cachafaz blanco,0.00,0
+144,77990303,cachafaz chocolate,0.00,0
+145,77990327,cachafaz conito,0.00,0
+146,77922106,cachafaz maizena,0.00,0
+147,77930057,cachafaz mousse,0.00,0
+148,7791249008768,cadbury 72 gr. Almendras,0.00,0
+149,7791249011003,cadbury 72 gr. Intense,0.00,0
+150,7791249008720,cadbury 72 gr. Leche,0.00,0
+151,7791249008744,cadbury 72 gr. Pasas,0.00,0
+152,7791249020104,cadbury 72 gr. Tres sueños,0.00,0
+153,7791249020074,cadbury 72 gr. Yogur,0.00,0
+154,7791249020067,cadbury yogur chico,0.00,0
+155,8720400083572,cafe crème arome,0.00,0
+156,8720400000425,cafe crème blue,0.00,0
+157,8720400100743,cafe crème filter arome,0.00,0
+158,8720400010240,cafe creme filter tip ,0.00,0
+159,8720400178544,cafe creme filter tip arome,0.00,0
+160,8720400161911,café creme finos ,0.00,0
+161,8720400161928,café creme finos arome,0.00,0
+162,8720400228065,café creme finos blue,0.00,0
+163,8720400252589,cafe crème macchiato,0.00,0
+164,100000220,cafe crème vainilla,0.00,0
+165,100000209,cafiaspirina,0.00,0
+166,100000016,cafiaspirina plus,0.00,0
+167,100000150,caja negras pvc para cd/dvd,0.00,0
+168,100000194,camara fotos juguete,0.00,0
+169,77910974,camel,0.00,0
+170,77929198,camel 10,0.00,0
+171,77910936,camel blue,0.00,0
+172,77910981,camel box,0.00,0
+173,100000199,camion,0.00,0
+174,8435124852624,candy art,0.00,0
+175,77921970,captaris chico brazil,0.00,0
+176,77918970,captaris chico cameroon,0.00,0
+177,77908797,captaris chico java,0.00,0
+178,77923714,captaris chico mexico,0.00,0
+179,77921987,captaris grande brazil,0.00,0
+180,77918956,captaris grande cameroon,0.00,0
+181,77918932,captaris grande java,0.00,0
+182,77923721,captaris grande mexico,0.00,0
+183,100000210,carbon x tira,0.00,0
+184,7790250054382,carilina pañuelo descartable,0.00,0
+185,100000222,carpetas cartulina,0.00,0
+186,7897653518555,cartas gaturro,0.00,0
+187,7791337372009,casancrem light,0.00,0
+188,7797216001145,casino naipes poker,0.00,0
+189,7797216001039,casino naipes x 40 ,0.00,0
+190,7797216001046,casino naipes x 50,0.00,0
+191,100000223,CD ,0.00,0
+192,100000192,celulares agua,0.00,0
+193,6910021007206,cepillo dientes,0.00,0
+194,7790895641749,cepita botella 1500 anana,0.00,0
+195,7790895641534,cepita botella 1500 durazno,0.00,0
+196,7790895641800,cepita botella 1500 naranja,0.00,0
+197,7790895641732,cepita botellita 300 anana,0.00,0
+198,7790895641541,cepita botellita 300 durazno,0.00,0
+199,7790895641794,cepita botellita 300 naranja,0.00,0
+200,7790895064319,cepita carton chico manzana,0.00,0
+201,7790895065200,cepita carton chico multifruta,0.00,0
+202,7790895064302,cepita carton chico naranja,0.00,0
+203,7790895064340,cepita carton grande manzana,0.00,0
+204,7790895065217,cepita carton grande multifruta,0.00,0
+205,7790895064333,cepita carton grande naranja,0.00,0
+206,7790895064326,cepita carton grande pomelo,0.00,0
+207,77909145,cereal fort  frutilla,0.00,0
+208,77909015,cereal fort azul,0.00,0
+209,77909039,cereal fort gran rico,0.00,0
+210,77909053,cereal fort manzana,0.00,0
+211,77909008,cereal fort rojo,0.00,0
+212,77916525,cereal mix chocolate almendras,0.00,0
+213,77915818,cereal mix manzana light,0.00,0
+214,77984395,cereal mix pasion,0.00,0
+215,77935274,cereal mix yogur frutilla,0.00,0
+216,7622300780838,cerealitas,0.00,0
+217,7622300780814,cerealitas pocket,0.00,0
+218,7730104012595,cerrito tabaco,0.00,0
+219,4002153084322,cheetah tabaco,0.00,0
+220,77919298,chesterfield,0.00,0
+221,7798113330789,chips claro,0.00,0
+222,100000151,chips movistar,0.00,0
+223,100000152,chips personal,0.00,0
+224,7790310001455,chizitos 38 gr,0.00,0
+225,7790310980903,chizitos 85 gr,0.00,0
+226,7798134062003,chocoarroz chocolate blanco,0.00,0
+227,7798134060016,chocoarroz dulce de leche,0.00,0
+228,7798134060580,chocoarroz limon ,0.00,0
+229,7798134061785,chocoarroz marroc,0.00,0
+230,7790040929906,chocolinas,0.00,0
+231,7613033184185,chomp almendras,0.00,0
+232,7613033990298,chomp avellana ,0.00,0
+233,7613033189128,chomp dulce de leche,0.00,0
+234,7792850000066,chuker,0.00,0
+235,7792860011212,chupetoncito,0.00,0
+236,7793940198007,cindor chico,0.00,0
+237,7791337892071,cindor litro,0.00,0
+238,100000153,cinta de embalaje,0.00,0
+239,100000154,cinta scotch doble ancho,0.00,0
+240,100000155,cinta scotch mediana,0.00,0
+241,7798085680097,citric 250 cc ,0.00,0
+242,7798085680127,citric 500 cc naranja,0.00,0
+243,7798085680295,citric 500 cc naranja durazno,0.00,0
+244,7798085680318,citric 500 cc naranja frutilla,0.00,0
+245,7798085680141,citric litro naranja,0.00,0
+246,7798085680301,citric litro naranja durazno,0.00,0
+247,7798085680325,citric litro naranja frutilla,0.00,0
+248,7622300401641,clight anana,0.00,0
+249,7622300349349,clight frutos amarillos,0.00,0
+250,7622300349370,clight frutos rojos,0.00,0
+251,7622300349301,clight frutos verdes,0.00,0
+252,7790050987651,clight lima limon,0.00,0
+253,7790050001166,clight naranja,0.00,0
+254,7790050985992,clight naranja dulce,0.00,0
+255,7622300577964,clight naranja durazno,0.00,0
+256,7790050986449,clight pera,0.00,0
+257,7790050001258,clight pomelo,0.00,0
+258,100000156,clips invisibles carton de 12,0.00,0
+259,4000862230306,club master,0.00,0
+260,7790895000430,coca 1500,0.00,0
+261,7790895000997,coca 2250,0.00,0
+262,7790895006968,coca 600,0.00,0
+263,7790895001451,coca light 1500,0.00,0
+264,7790895005312,coca light 2250,0.00,0
+265,7790895006975,coca light 600,0.00,0
+266,100000215,coca vidrio,0.00,0
+267,7790895063015,coca vidrio light,0.00,0
+268,7790895067556,coca zero 1500,0.00,0
+269,7790895067570,coca zero 2250,0.00,0
+270,7790895067549,coca zero 600,0.00,0
+271,77922120,cofler block 110 gr.chocolate,0.00,0
+272,77953124,cofler block 38 gr.chocolate,0.00,0
+273,77932327,cofler extra coco,0.00,0
+274,77932310,cofler extra maní,0.00,0
+275,7790580619619,cofler extra marroc,0.00,0
+276,7793100111341,colgate dentifrico,0.00,0
+277,7790430000949,conogol chocolate,0.00,0
+278,7790430006835,conogol dulce leche,0.00,0
+279,100000157,cordon porta lentes,0.00,0
+280,7790040377707,criollitas chicas,0.00,0
+281,100000043,criollitas mas,0.00,0
+282,7790206511105,croco,0.00,0
+283,7791445001051,cruz de malta en saquitos,0.00,0
+284,7791445001013,cruz de malta yerba 500,0.00,0
+285,100000198,cuadriculado articulado,0.00,0
+286,77970657,cubanitos de limon arcor,0.00,0
+287,7702003469237,curitas x caja,0.00,0
+288,100000158,curitas x unidad,0.00,0
+289,7790416066549,cutex quitaesmalte fortalecedor,0.00,0
+290,7790416066648,cutex quitaesmalte hipoalergenico,0.00,0
+291,7790416066440,cutex quitaesmalte humectante,0.00,0
+292,7791337531017,danette flan x unidad,0.00,0
+293,77953070,danette postre chocolate x unidad,0.00,0
+294,77953063,danette postre dulce leche x unidad,0.00,0
+295,8008131001028,david ross x 10 unid.,0.00,0
+296,100000159,David ross x 5 unid.,0.00,0
+297,77910967,derby,0.00,0
+298,77910158,derby suave,0.00,0
+299,77939364,derby suave 10,0.00,0
+300,77920249,derby suave largo,0.00,0
+301,100000224,dinosaurios,0.00,0
+302,100000045,Disney huevos ,0.00,0
+303,100000046,dolca bananita chica,0.00,0
+304,77929235,dolca bananita grande,0.00,0
+305,5411808065514,domingo tabaco azul,0.00,0
+306,5411808065507,domingo tabaco celeste,0.00,0
+307,5411808015045,domingo tabaco cherry,0.00,0
+308,5411808062803,domingo tabaco natural,0.00,0
+309,5411808065064,domingo tabaco negro,0.00,0
+310,100000107,domingo tabaco rojo 20 gr.,0.00,0
+311,5411808062483,domingo tabaco strawberry,0.00,0
+312,5411808062513,domingo tabaco vainilla,0.00,0
+313,5411808065545,domingo tabaco virginia,0.00,0
+314,7795735000045,don satur budin chips,0.00,0
+315,7795735000038,don satur budin frutas,0.00,0
+316,7795735000052,don satur budin marmolado,0.00,0
+317,7795735000021,don satur budin vainilla,0.00,0
+318,7795735000335,don satur dulce,0.00,0
+319,7795735000328,don satur salado,0.00,0
+320,7795735000106,don satur talitas,0.00,0
+321,7790310980255,doritos 36 gr.,0.00,0
+322,7790310000649,doritos 90 gr.,0.00,0
+323,100000211,dorixina,0.00,0
+324,77907509,dos corazones,0.00,0
+325,7792222002841,drf anís,0.00,0
+326,7792222002803,drf limon,0.00,0
+327,7792222002865,drf menta,0.00,0
+328,7792222002780,drf mentol,0.00,0
+329,7792222002827,drf naranja,0.00,0
+330,77930217,dunhill blonde,0.00,0
+331,77930194,dunhill master,0.00,0
+332,77930200,dunhill swiss,0.00,0
+333,75040543,dunhill switch,0.00,0
+334,41333016634,duracell AA,0.00,0
+335,41333424019,duracell AAA,0.00,0
+336,41333001043,duracell bateria 9 volt,0.00,0
+337,71610500617,dutch master chocolate caja,0.00,0
+338,100000108,dutch master chocolate x 1 ,0.00,0
+339,100000160,dvd,0.00,0
+340,7790129100219,encendedor cancun electronico,0.00,0
+341,4800065241006,encendedor cricket electronico,0.00,0
+342,100000161,encendedor magiclick premium,0.00,0
+343,70330909229,encendedor maxibic ,0.00,0
+344,70330913431,encendedor minibic,0.00,0
+345,5011435624582,encendedor ronson a piedra,0.00,0
+346,3086126612027,encendedor transparente,0.00,0
+347,8888021204223,energizer AA,0.00,0
+348,39800099099,energizer AAA,0.00,0
+349,39800013613,energizer batería 9 v.,0.00,0
+350,39800034083,energizer ultimate aa,0.00,0
+351,39800079305,energizer ultimate aaa,0.00,0
+352,7791293010908,enjuage frasco balance,0.00,0
+353,7791293010601,enjuage frasco caida,0.00,0
+354,7791293010700,enjuage frasco ceramidas,0.00,0
+355,7791293010397,enjuage frasco crec. Fortificado,0.00,0
+356,7791293010502,enjuage frasco liso perecto,0.00,0
+357,7791293010823,enjuage frasco rizos obedientes,0.00,0
+358,77901385,enjuage sachet balance,0.00,0
+359,77901293,enjuage sachet ceramidas,0.00,0
+360,77901491,enjuage sachet reconstruccion,0.00,0
+361,100000089,epa alfajor,0.00,0
+362,7790430009829,epa chocolate,0.00,0
+363,7790430100311,epa crunch,0.00,0
+364,7790430003797,epa dulce leche,0.00,0
+365,7613034020666,epa rocker,0.00,0
+366,100000162,escarapela,0.00,0
+367,7790520000378,espirales (sobre x 4 unid),0.00,0
+368,7798111390341,ESTE CODIGO ES ERRONEO,0.00,0
+369,7501037600056,eveready AA,0.00,0
+370,39800052636,eveready AAA,0.00,0
+371,7501037600018,eveready D,0.00,0
+372,100000047,evolution chupetin,0.00,0
+373,7793677030366,exeter tabaco,0.00,0
+374,1567603266251,extension angry birds,0.00,0
+375,123,extensiones dragonball,0.00,0
+376,7798040460030,extensiones penguin,0.00,0
+377,22000008381,extra chicles fruit sensations,0.00,0
+378,2289805,extra chicles polar,0.00,0
+379,22000008459,extra chicles rosa,0.00,0
+380,22000008404,extra chicles winter fresh,0.00,0
+381,7790895000454,fanta 1500,0.00,0
+382,7790895001017,fanta 2250,0.00,0
+383,7790895063091,fanta 600,0.00,0
+384,7790895000546,fanta pomelo 1500,0.00,0
+385,7790895001024,fanta pomelo 2250,0.00,0
+386,7790895641657,fanta pomelo 600,0.00,0
+387,7790895002304,fanta zero 1500,0.00,0
+388,7790895002342,fanta zero 600,0.00,0
+389,7790206506958,feeling,0.00,0
+390,7790206514397,felfort chocolate 75 gr.,0.00,0
+391,7790206508365,felfort medallon dulce leche,0.00,0
+392,78909434,ferrero rocher x 3,0.00,0
+393,8018190049237,figu la era del hielo,0.00,0
+394,100000182,figus angry birds,0.00,0
+395,8018190025910,figus floricienta,0.00,0
+396,1567603266138,figus garfield,0.00,0
+397,7798018612003,figus god of war,0.00,0
+398,7798018612034,figus hadas,0.00,0
+399,8018190048773,figus hombre araña,0.00,0
+400,100000187,figus london 2012,0.00,0
+401,124,figus looney toons,0.00,0
+402,8018190047790,figus monster,0.00,0
+403,8018190049565,figus valiente,0.00,0
+404,8018190049138,figus vengadores,0.00,0
+405,100000109,filtro carton lion,0.00,0
+406,100000110,filtros de carton lion,0.00,0
+407,5411808032011,filtros domingo,0.00,0
+408,3057068103720,filtros ocb ecologicos,0.00,0
+409,3057068067787,filtros ocb extra slim,0.00,0
+410,3057068029709,filtros ocb regular,0.00,0
+411,3057068015986,filtros ocb slim ,0.00,0
+412,5411808065095,fleur du pays,0.00,0
+413,100000163,folios,0.00,0
+414,100000164,fosforos chicos,0.00,0
+415,7790590000230,fosforos grandes,0.00,0
+416,8710151568268,free jack,0.00,0
+417,101,frutas secas,0.00,0
+418,7790045824893,frutigram chocolate,0.00,0
+419,7790045001188,frutigram pasas,0.00,0
+420,7790045001195,frutigram salvado,0.00,0
+421,7897653511921,fut gogos,0.00,0
+422,100000165,fuyi vape x 4,0.00,0
+423,10058,galletas de arroz,0.00,0
+424,100000112,garcia y vega english corona,0.00,0
+425,7797430000016,gas chico,0.00,0
+426,7794536000612,gas magiclick,0.00,0
+427,7792170110568,gatorade 1250 cc berry,0.00,0
+428,7792170110704,gatorade 1250 cc cool blue,0.00,0
+429,7792170110575,gatorade 1250 cc manzana,0.00,0
+430,7792170110551,gatorade 1250 cc naranja,0.00,0
+431,7792170052059,Gatorade 200 ml. Manzana,0.00,0
+432,7792170052011,Gatorade 200 ml. Naranja,0.00,0
+433,7792170002054,gatorade 473 pomelo,0.00,0
+434,7792170042234,gatorade 500 cc berry,0.00,0
+435,7792170042258,gatorade 500 cc cool blue,0.00,0
+436,7792170042050,gatorade 500 cc lima limon,0.00,0
+437,7792170042265,gatorade 500 cc mango,0.00,0
+438,7792170042005,gatorade 500 cc manzana,0.00,0
+439,7792170042012,gatorade 500 cc naranja,0.00,0
+440,7796004000865,gaturro lenteja chocolate,0.00,0
+441,7796004000858,gaturro mani con chocolate,0.00,0
+442,77970541,gavilan cigarrillos,0.00,0
+443,77917911,georgalos chocolate sin azucar,0.00,0
+444,100000166,gillette x caja de 3,0.00,0
+445,100000167,gillette x caja de 5,0.00,0
+446,100000168,gillette x unidad,0.00,0
+447,77910585,gitanes,0.00,0
+448,7792931000022,glaciar 1500,0.00,0
+449,7792931000015,glaciar agua 500,0.00,0
+450,77910905,gold leaf,0.00,0
+451,100000169,gomitas de pelo finas,0.00,0
+452,100000170,gomitas de pelo gruesas,0.00,0
+453,100000200,gorras de 30,0.00,0
+454,100000201,gorras de 40,0.00,0
+455,7790480008254,green hills te,0.00,0
+456,100000113,guantanamera cristales c/u,0.00,0
+457,77980229,guaymallen chocolate,0.00,0
+458,77980236,guaymallen fruta,0.00,0
+459,77980212,guaymallen leche,0.00,0
+460,7791813420248,H2O 500 citrus,0.00,0
+461,7791813420910,H2O 500 limoneto,0.00,0
+462,7791813420262,H2O 500 naranja,0.00,0
+463,7622300335076,habanitos,0.00,0
+464,77912732,halls cherry,0.00,0
+465,77924285,halls creamy frutilla,0.00,0
+466,77927309,halls creamy manzana,0.00,0
+467,77924261,halls creamy mora,0.00,0
+468,77918536,halls free cherry,0.00,0
+469,77918543,halls free menta,0.00,0
+470,77919915,halls free mora,0.00,0
+471,77933928,halls menta,0.00,0
+472,77933911,halls mentoliptus,0.00,0
+473,77921420,halls miel,0.00,0
+474,77905277,halls miel con limon,0.00,0
+475,77905291,halls miel con menta,0.00,0
+476,77902269,halls mora,0.00,0
+477,77933904,halls strong,0.00,0
+478,77921406,halls uva verde,0.00,0
+479,77917317,halls vita-c frutilla,0.00,0
+480,77917331,halls vita-c limon,0.00,0
+481,77917324,halls vita-c naranja,0.00,0
+482,77924834,halls vita-c sania,0.00,0
+483,7794612065719,hamlet almendras,0.00,0
+484,7794612017510,hamlet bicolor,0.00,0
+485,7794612066310,hamlet blanco,0.00,0
+486,7794612065818,hamlet dulce de leche.,0.00,0
+487,7613034003676,helado hello kitty,0.00,0
+488,8720400074389,henri wintermann tubo,0.00,0
+489,100000171,hojas sueltas de impresora,0.00,0
+490,77936455,huevo kinder,0.00,0
+491,100000017,ibuevanol,0.00,0
+492,7797257000121,Ivess agua 500,0.00,0
+493,7797257000725,ivess sabor citrus,0.00,0
+494,7797257000916,ivess sabor manzana,0.00,0
+495,7797257000886,ivess sabor naranja,0.00,0
+496,7797257000848,ivess sabor pomelo,0.00,0
+497,7791293018256,jabon lux luminoso,0.00,0
+498,7791293018232,jabon lux pera,0.00,0
+499,7791293018195,jabon lux refescate,0.00,0
+500,7791293018218,jabon lux sorprendeme,0.00,0
+501,7891024112052,jabon polyana bouquet,0.00,0
+502,7891024112045,jabon polyana charme,0.00,0
+503,77920355,jockey rojo,0.00,0
+504,77910370,jockey suave,0.00,0
+505,77939388,jockey suave 10,0.00,0
+506,77910684,jockey suave largo,0.00,0
+507,77901705,jorgelin blanco,0.00,0
+508,77901729,jorgelin negro,0.00,0
+509,77905758,jorgito alfajor blanco,0.00,0
+510,77905741,jorgito alfajor negro,0.00,0
+511,7790957000668,jorgito bizcochitos 200 gr.,0.00,0
+512,100000051,jorgito conito,0.00,0
+513,7790957000538,jorgito tubo blanco,0.00,0
+514,7790957000552,jorgito tubo fruta,0.00,0
+515,7790957000569,jorgito tubo mousse,0.00,0
+516,7790957000545,jorgito tubo negro,0.00,0
+517,7622300656508,jugo tang anana,0.00,0
+518,7622300631215,jugo tang limonada,0.00,0
+519,7622300631161,jugo tang manzana,0.00,0
+520,7622300401016,jugo tang maracuya,0.00,0
+521,7622300580292,jugo tang mix sanía y melon,0.00,0
+522,7622300580162,jugo tang mix uva y mango,0.00,0
+523,7622300637231,jugo tang multifruta,0.00,0
+524,7622300615840,jugo tang naranja,0.00,0
+525,7622300623913,jugo tang naranja dulce,0.00,0
+526,7622300649814,jugo tang naranja-banana ,0.00,0
+527,7622300618599,jugo tang naranja-banana-frutilla,0.00,0
+528,7622300656447,jugo tang naranja-durazno,0.00,0
+529,7622300622237,jugo tang pera,0.00,0
+530,7622300658915,jugo tang pomelo rosado,0.00,0
+531,7790040173200,kesitas en caja,0.00,0
+532,7790040003606,kesitas en sobre,0.00,0
+533,7790310002568,kessbum 100 gr,0.00,0
+534,7790310003251,kessbum pizza 100 gr.,0.00,0
+535,80050315,kinder barrita chica 12.5 gr.,0.00,0
+536,80052760,kinder bueno,0.00,0
+537,80177609,kinder chocolate x 4,0.00,0
+538,40084107,kinder huevo ,0.00,0
+539,80050094,kinder maxi 21 gr.,0.00,0
+540,7794000595583,knorr quick caja choclo,0.00,0
+541,7794000595552,knorr quick caja vegetales,0.00,0
+542,7794000595576,knorr quick caja zapallo,0.00,0
+543,100000001,knorr quick sobre choclo,0.00,0
+544,100000002,knorr quick sobre esparragos,0.00,0
+545,100000003,knorr quick sobre esparragos light,0.00,0
+546,100000004,knorr quick sobre espinaca light,0.00,0
+547,100000005,knorr quick sobre pollo,0.00,0
+548,100000006,knorr quick sobre vegetales,0.00,0
+549,100000007,knorr quick sobre zapallo,0.00,0
+550,100000008,knorr quick sobre zapallo light,0.00,0
+551,7793100120060,Kolynos dentifrico ,0.00,0
+552,77917188,la gotita,0.00,0
+553,77906731,la gotita gel,0.00,0
+554,7790150115039,la virginia café saquitos x caja,0.00,0
+555,7790150695883,la virginia café saquitos x unidad,0.00,0
+556,7790150295137,la virginia capuccino x caja,0.00,0
+557,7790150695746,la virginia capuccino x unidad,0.00,0
+558,7790150696750,la virginia te,0.00,0
+559,7613033990311,lafrutta anana,0.00,0
+560,7613033086755,lafrutta frutilla,0.00,0
+561,7613033075070,lafrutta kiwi,0.00,0
+562,4008321977328,lamparas 28 w         ,0.00,0
+563,4008321977342,lamparas 42 w,0.00,0
+564,4008321977366,lamparas 53 w  ,0.00,0
+565,4008321977380,lamparas 70 w,0.00,0
+566,7790036972602,latte chica,0.00,0
+567,7790036948294,latte litro,0.00,0
+568,7790310980576,lays 150 gr,0.00,0
+569,7790310001226,lays 38 gr,0.00,0
+570,7790310601679,lays 85 gr,0.00,0
+571,7790310000717,lays mediterraneas 70 gr,0.00,0
+572,7790310001288,lays queso y cebolla 76 gr,0.00,0
+573,7790310003138,lays restó lomo 34 gr.,0.00,0
+574,7790310001868,lays restó lomo 70 gr.,0.00,0
+575,7790310001844,lays restó parmesano 70 gr.,0.00,0
+576,7790310001851,lays restó pechuga 70 gr.,0.00,0
+577,77916006,le mans,0.00,0
+578,77916198,le mans largo,0.00,0
+579,7793940441004,leche litro carton descremada,0.00,0
+580,7793940454004,leche litro carton entera,0.00,0
+581,7793940449000,leche litro sachet,0.00,0
+582,100000202,lentes lectura 30,0.00,0
+583,100000203,lentes lectura 40,0.00,0
+584,100000204,lentes sol 30,0.00,0
+585,100000205,lentes sol 40,0.00,0
+586,7798062549225,levitee 1500 anana,0.00,0
+587,7798062548709,levitee 1500 manzana,0.00,0
+588,7798062548648,levitee 1500 naranja,0.00,0
+589,7798062540253,levitee 1500 pera,0.00,0
+590,7798062548679,levitee 1500 pomelo,0.00,0
+591,7798062541021,levitee 1500 pomelo rosado,0.00,0
+592,7798062549232,levitee 500 anana,0.00,0
+593,7790315000675,levitee 500 limonada,0.00,0
+594,7798062548716,levitee 500 manzana,0.00,0
+595,7798062548655,levitee 500 naranja,0.00,0
+596,7798062540260,levitee 500 pera,0.00,0
+597,7798062548686,levitee 500 pomelo,0.00,0
+598,7798062541038,levitee 500 pomelo rosado,0.00,0
+599,100000052,licorfort,0.00,0
+600,100000053,licoritas,0.00,0
+601,100000172,lima de uñas,0.00,0
+602,7794922501723,lima de uñas x caja,0.00,0
+603,7622300742690,lincoln,0.00,0
+604,100000054,linterna laser pop,0.00,0
+605,100000055,lipo superacidos,0.00,0
+606,77926289,lm light,0.00,0
+607,77926258,lm light box,0.00,0
+608,8710151546556,look out tabaco american,0.00,0
+609,8710151546549,look out tabaco holland,0.00,0
+610,8710151577178,look out tabaco natural,0.00,0
+611,8710151577192,look out tabaco vainilla,0.00,0
+612,7791293041223,lord cheseline fijador,0.00,0
+613,7795907000392,luchetti fideos,0.00,0
+614,78017689,lucky original,0.00,0
+615,78017696,lucky original 10,0.00,0
+616,77910059,lucky strike,0.00,0
+617,77901538,lucky strike 10,0.00,0
+618,77936523,lucky strike 10 click,0.00,0
+619,77910066,lucky strike box,0.00,0
+620,77929068,lucky strike box click,0.00,0
+621,77936707,lucky strike click,0.00,0
+622,7790430000161,luxor bombon,0.00,0
+623,7613031728053,luxor dulce leche,0.00,0
+624,7790040439207,mana rellenas chocolate,0.00,0
+625,7790040439108,mana rellenas limon,0.00,0
+626,4006396157805,manitou virginia blue,0.00,0
+627,4006396157850,Manitou virginia gold,0.00,0
+628,7622300742744,manon,0.00,0
+629,7791249451472,mantecol 110 gr.,0.00,0
+630,7791249010549,mantecol 25 gr.,0.00,0
+631,100000057,mantecol 40 gr.,0.00,0
+632,7791249021453,mantecol extremo,0.00,0
+633,77916433,marlboro,0.00,0
+634,77917843,marlboro 10,0.00,0
+635,77914064,marlboro 16,0.00,0
+636,77918482,marlboro box,0.00,0
+637,77905819,marlboro gold,0.00,0
+638,77977823,marlboro ice fresh,0.00,0
+639,77977885,marlboro silver mint,0.00,0
+640,100000058,marroc,0.00,0
+641,5018819902700,mazo penguin,0.00,0
+642,1567603266268,mazos angry,0.00,0
+643,125,mazos dragonball,0.00,0
+644,100000060,medallon de menta felfort,0.00,0
+645,7790430005845,mega almendras,0.00,0
+646,7613032478940,mega chocolate,0.00,0
+647,7613033851681,mega tres chocolates,0.00,0
+648,7622300742775,melba,0.00,0
+649,77903365,melbour,0.00,0
+650,7790040930209,mellizas,0.00,0
+651,100000061,menta cristal,0.00,0
+652,7792222003732,mentitas fruta,0.00,0
+653,7792222003718,mentitas menta,0.00,0
+654,77946805,mentoplus free cereza,0.00,0
+655,77946812,mentoplus free durazno,0.00,0
+656,77927989,mentoplus free limon,0.00,0
+657,77946829,mentoplus free mentol,0.00,0
+658,77946836,mentoplus free pomelo,0.00,0
+659,78916401,mentos frutas  ,0.00,0
+660,78925281,mentos frutilla,0.00,0
+661,78928275,mentos magic,0.00,0
+662,78924192,mentos manzana,0.00,0
+663,78916418,mentos menta,0.00,0
+664,7790040932708,merengadas,0.00,0
+665,100000218,miel caramelos ,0.00,0
+666,100000212,migral x tira,0.00,0
+667,100000018,migral x unidad,0.00,0
+668,7622300457266,milka alfajor simple blanco,0.00,0
+669,7622300759506,milka alfajor simple negro,0.00,0
+670,100000062,milka almendra 70 gr.,0.00,0
+671,100000063,milka blanco 70 gr.,0.00,0
+672,7622300594282,milka blanco dulce leche 70 gr.,0.00,0
+673,7622300056483,milka leche 70 gr.,0.00,0
+674,100000064,milka leger almendra x 100 gr.,0.00,0
+675,7790114015177,milka leger leche x 100 gr.,0.00,0
+676,77916112,milka leger x 45 gr. Almendra,0.00,0
+677,77916136,milka leger x 45 gr. Blanco,0.00,0
+678,77916129,milka leger x 45 gr. Combinado,0.00,0
+679,100000065,milka leger x 45 gr. Leche,0.00,0
+680,7622300400026,milka negro dulce leche 70 gr.,0.00,0
+681,100000066,milka oreo blanco 70 gr.,0.00,0
+682,7622300249113,milka oreo negro 70 gr.,0.00,0
+683,100000067,milka triple alfajor blanco,0.00,0
+684,77903785,milka triple alfajor mousse,0.00,0
+685,7622300347529,milka triple alfajor oreo,0.00,0
+686,7622300179540,milka x 170 gr. Almendra,0.00,0
+687,7790114900657,milka x 170 grs.leche,0.00,0
+688,7798087950037,minifusor boquilla,0.00,0
+689,100000114,minifusor repuesto x par,0.00,0
+690,7798087950051,minifusor repuesto x tira,0.00,0
+691,7622300335090,minirodesia,0.00,0
+692,100000027,mirinda 237,0.00,0
+693,7791813420156,mirinda 500,0.00,0
+694,7790580618315,mogul cocodrilo,0.00,0
+695,100000068,mogul moras,0.00,0
+696,7790580199913,mogul ositos,0.00,0
+697,7790580602000,mogul rollo,0.00,0
+698,100000069,mogul tiburon,0.00,0
+699,100000070,moneda pirata,0.00,0
+700,100000091,monkey helado,0.00,0
+701,7613034003461,monster monkey helado,0.00,0
+702,4002153008793,moro dark blend,0.00,0
+703,4002153020535,moro golden shag,0.00,0
+704,4002153020559,moro halfzware shag,0.00,0
+705,4002153011755,moro tabaco mango,0.00,0
+706,4002153011786,moro tabaco vainilla,0.00,0
+707,4002153008762,moro virginia,0.00,0
+708,77939838,mr. Monkey,0.00,0
+709,77950222,multimint,0.00,0
+710,100000195,muñequitas chicas,0.00,0
+711,7935729,nerds amarillo/rojo,0.00,0
+712,79200370213,nerds azul/naranja,0.00,0
+713,7933925,nerds naranja/verde,0.00,0
+714,7933624,nerds rosa/violeta,0.00,0
+715,7613033521164,Nescafe dolca ,0.00,0
+716,100000207,Nescafe dolca suave,0.00,0
+717,7790430009119,nesquik,0.00,0
+718,77912824,next,0.00,0
+719,7790060054060,nobleza gaucha yerba,0.00,0
+720,7790380016922,nucrem 84 gr.,0.00,0
+721,7792222041062,nugaton blanco,0.00,0
+722,7792222041055,nugaton negro,0.00,0
+723,7790520161055,off aerosol,0.00,0
+724,77991973,off locion,0.00,0
+725,77903501,opera,0.00,0
+726,7622300742430,oreo galletitas,0.00,0
+727,77916495,oreo triple alfajor,0.00,0
+728,100000072,palitos de la selva,0.00,0
+729,100000115,papel armar abadie,0.00,0
+730,644536227113,papel armar doble platinum chocolate,0.00,0
+731,644536226314,papel armar doble platinum durazno,0.00,0
+732,644536227410,papel armar doble platinum miel,0.00,0
+733,54137318,papel armar domingo,0.00,0
+734,30042452,papel armar OCB blanco,0.00,0
+735,30054257,papel armar OCB corto azul,0.00,0
+736,30071704,papel armar OCB corto blue expert,0.00,0
+737,30063082,papel armar OCB corto negro,0.00,0
+738,30068926,papel armar OCB gris expert,0.00,0
+739,30058569,papel armar OCB king size negro,0.00,0
+740,30086357,papel armar OCB king size oro,0.00,0
+741,30052765,papel armar OCB negro premium,0.00,0
+742,30087859,papel armar OCB organico,0.00,0
+743,100000124,papel armar ombu,0.00,0
+744,716165174172,papel armar raw,0.00,0
+745,77925671,papel armar roots,0.00,0
+746,84157041,papel armar smoking chico,0.00,0
+747,84196736,papel armar smoking orange,0.00,0
+748,7798038157430,papel higienico scott,0.00,0
+749,7798038150295,papel higienico scott aloe vera,0.00,0
+750,100000073,paragüitas,0.00,0
+751,77910325,parisiennes,0.00,0
+752,77936431,parisiennes 10,0.00,0
+753,77910950,parisiennes box,0.00,0
+754,77929891,parliament,0.00,0
+755,7791813421368,paso toros pomelo 1500,0.00,0
+756,7791813420385,paso toros pomelo 500,0.00,0
+757,7791813421382,paso toros tonica 1500,0.00,0
+758,7790310000786,pehuamar mani pelado 100 gr,0.00,0
+759,7790310920749,pehuamar mani pelado 180 gr,0.00,0
+760,7790310000878,pehuamar palitos queso 90 gr,0.00,0
+761,100000173,peine,0.00,0
+762,740617176988,pendrive 16 gb dt 101,0.00,0
+763,740617176964,pendrive 8 gb dt 101,0.00,0
+764,740617196528,pendrive 8 gb micro,0.00,0
+765,7790310980118,pep palitos 63 gr,0.00,0
+766,7790310980231,pep rueditas 74 gr.,0.00,0
+767,7798054220156,pepas 200 gr.,0.00,0
+768,7798054220149,pepas terepin 400 gr.,0.00,0
+769,4006396139665,pepe tabaco virginia 30 gr.,0.00,0
+770,77915481,pepitos alfajor triple,0.00,0
+771,7622300741716,pepitos chispas,0.00,0
+772,7622300339715,pepitos galletitas,0.00,0
+773,100000028,pepsi 237,0.00,0
+774,7791813420118,pepsi 500,0.00,0
+775,7791813421115,pepsi1500,0.00,0
+776,77912879,philip morris,0.00,0
+777,77913418,philip morris 10,0.00,0
+778,77934635,philip morris 10 caps,0.00,0
+779,77905710,philip morris 15,0.00,0
+780,77912954,philip morris box,0.00,0
+781,77940735,philip morris caps,0.00,0
+782,8712581496555,philips auricular extra bass,0.00,0
+783,8712581498382,philips auricular mix and match,0.00,0
+784,8712581397883,philips auricular she1360,0.00,0
+785,70235109106,phillies blunt chocolate x caja,0.00,0
+786,70235000557,phillies blunt chocolate x unidad,0.00,0
+787,70235103517,phillies titan x caja,0.00,0
+788,100000127,phillies titan x unidad,0.00,0
+789,100000128,picador ficha poker grande,0.00,0
+790,100000129,picador galleta,0.00,0
+791,100000130,picador plastico redondo ,0.00,0
+792,100000074,pico dulce chupetin,0.00,0
+793,7613033086137,pico dulce helado,0.00,0
+794,103,pipa de madera,0.00,0
+795,102,pipa de marlo,0.00,0
+796,100000131,pipa llavero,0.00,0
+797,77965233,pipas girasol,0.00,0
+798,100000132,pipas metal blister,0.00,0
+799,100000133,pipas metal locas,0.00,0
+800,100000029,pomelo 237,0.00,0
+801,7790310002285,popkorn ,0.00,0
+802,7790310002711,popkorn chocolate 70 gr,0.00,0
+803,100000103,popkorn frutilla,0.00,0
+804,7791337303072,postre ser chocolate x unid,0.00,0
+805,7790895641190,powerade 500 amarillo,0.00,0
+806,7790895640025,powerade 500 azul,0.00,0
+807,7790895640018,powerade 500 manzana,0.00,0
+808,7790895640032,powerade 500 naranja,0.00,0
+809,7790895641183,powerade 500 rojo,0.00,0
+810,7794122013071,poxiran,0.00,0
+811,7501009222729,prestobarba azul,0.00,0
+812,7501009224174,prestobarba verde,0.00,0
+813,7791519200021,prime anatómico,0.00,0
+814,7791519200076,prime espermicida,0.00,0
+815,7791519000676,prime extralubricado,0.00,0
+816,7791519701030,prime large,0.00,0
+817,7791519702112,prime retardante,0.00,0
+818,7791519702099,prime skin,0.00,0
+819,7791519200045,prime super fino,0.00,0
+820,7791519200090,prime tachas,0.00,0
+821,7791519200069,prime texturado,0.00,0
+822,7791519701061,prime ultra fino,0.00,0
+823,7465603180505,principes chocolate,0.00,0
+824,37000185109,pringles chicas cebolla,0.00,0
+825,37000185086,pringles chicas original,0.00,0
+826,37000185123,pringles chicas queso,0.00,0
+827,37000511793,pringles grandes cebolla,0.00,0
+828,37000511786,pringles grandes original,0.00,0
+829,37000380405,pringles grandes picante,0.00,0
+830,37000511809,pringles grandes queso,0.00,0
+831,37000185239,pringles mediana cebolla,0.00,0
+832,37000185215,pringles mediana original,0.00,0
+833,37000185192,pringles mediana queso,0.00,0
+834,100000134,pueblo tabaco,0.00,0
+835,7793360000485,pure de tomate,0.00,0
+836,4891228530136,quattro afeitadora,0.00,0
+837,7793940459009,queso por salut untable light,0.00,0
+838,7793940328008,queso rallado 40 gr.,0.00,0
+839,7798171930013,rad 60,0.00,0
+840,77970763,red point mentolado,0.00,0
+841,77900883,red point rojo,0.00,0
+842,77922304,refresco celeste,0.00,0
+843,77922281,refresco naranja,0.00,0
+844,77922267,refresco rojo,0.00,0
+845,100000019,rennie,0.00,0
+846,7792540230841,resma,0.00,0
+847,7790040719804,rex en caja,0.00,0
+848,7790040003569,rex en sobre,0.00,0
+849,77995681,rhodesia,0.00,0
+850,7790580327415,rocklets,0.00,0
+851,7790250022657,rollo de cocina ,0.00,0
+852,100000009,rosamonte yerba ,0.00,0
+853,7792222002902,rueditas,0.00,0
+854,7790040930506,rumba,0.00,0
+855,7790580716707,saladix jamon,0.00,0
+856,7790580697303,saladix pizza,0.00,0
+857,7790580716806,saladix salame,0.00,0
+858,100000097,sandwich arabe jamon,0.00,0
+859,100000098,sandwich miga jamon,0.00,0
+860,100000099,sandwich miga salame,0.00,0
+861,100000100,sandwich pebete jamon,0.00,0
+862,100000101,sandwich pebete salame,0.00,0
+863,77955272,ser alfajor,0.00,0
+864,77936288,ser cereal durazno,0.00,0
+865,77936271,ser cereal frutilla,0.00,0
+866,77936264,ser cereal manzana,0.00,0
+867,100000075,ser cereal pera,0.00,0
+868,7798062548310,ser citrus 500,0.00,0
+869,7790040939400,ser galletitas crakers,0.00,0
+870,100000020,sertal,0.00,0
+871,7790045823100,sesamo granix,0.00,0
+872,7791293010632,shampu frasco caida,0.00,0
+873,7791293010748,shampu frasco ceramidas,0.00,0
+874,7791293011752,shampu frasco color vital,0.00,0
+875,7791293010786,shampu frasco crema,0.00,0
+876,7791293011110,shampu frasco reconstruccion,0.00,0
+877,77935847,shampu sachet ceramidas,0.00,0
+878,77901378,shampu sachet crema,0.00,0
+879,77935854,shampu sachet reconstruccion,0.00,0
+880,7591066701015,shick Xtreme 3,0.00,0
+881,77956699,shot alfajor triple,0.00,0
+882,7622300424084,shot chocolate x 170 grs.,0.00,0
+883,77914217,shot chocolate x 35 gr.,0.00,0
+884,7790114901234,shot confites mani ,0.00,0
+885,7891010891220,siempre libre ultrafina,0.00,0
+886,100000092,sin parar chocolate,0.00,0
+887,7790430009355,sin parar dulce leche,0.00,0
+888,100000093,sin parar futilla,0.00,0
+889,40000001621,skittles lila,0.00,0
+890,4016007,skittles rojo,0.00,0
+891,7790310000236,snack mix,0.00,0
+892,7622300335052,snacky,0.00,0
+893,100000076,snickers chico,0.00,0
+894,100000077,snickers grande,0.00,0
+895,100000175,sobres manila,0.00,0
+896,100000176,sobres para cd,0.00,0
+897,100000197,sonajero bebe,0.00,0
+898,7790040931206,sonrisas ,0.00,0
+899,7798119220015,Speed,0.00,0
+900,7790895000447,sprite 1500,0.00,0
+901,7790895001000,sprite 2250,0.00,0
+902,7790895007439,sprite 600,0.00,0
+903,7790895064173,sprite zero 1500,0.00,0
+904,7790895064166,sprite zero 2250,0.00,0
+905,7790895064159,sprite zero 600,0.00,0
+906,7790580056001,sugus confitados,0.00,0
+907,100000078,sugus max  anana  3 x 1 $,0.00,0
+908,100000079,sugus max  frutilla  3 x 1 $,0.00,0
+909,100000080,sugus max  menta  3 x 1 $,0.00,0
+910,100000081,sugus max  tuti fruti  3 x 1 $,0.00,0
+911,100000082,sugus max  uva  3 x 1 $,0.00,0
+912,100000083,sugus sorpresa 50 gr.,0.00,0
+913,100000084,sugus sueltos,0.00,0
+914,100000135,swishers sweet perectos c/u,0.00,0
+915,25900212216,swishers sweet perectos caja,0.00,0
+916,100000021,tafirol,0.00,0
+917,7790387531732,taragui te,0.00,0
+918,7790387013023,taragui yerba ,0.00,0
+919,8424248998912,tarjetas adrenalyn,0.00,0
+920,100000022,te vick forte,0.00,0
+921,100000193,telefono cara,0.00,0
+922,7790040948709,tentaciones,0.00,0
+923,77939234,terrabusi simple alfajor negro,0.00,0
+924,77903792,terrabusi triple alfajor dulce leche,0.00,0
+925,77903860,terrabusi triple alfajor torta,0.00,0
+926,78605831,tic tac frutilla,0.00,0
+927,78600010,tic tac menta,0.00,0
+928,78602649,tic tac mentol,0.00,0
+929,78605039,tic tac mix,0.00,0
+930,78600027,tic tac naranja,0.00,0
+931,77900845,tita,0.00,0
+932,7790206509805,tivis,0.00,0
+933,7792170000449,toddy galletitas 210 gr.,0.00,0
+934,7792170000432,toddy galletitas 75 gr.,0.00,0
+935,7790580746711,tofi 55 gr. Blanco,0.00,0
+936,7790580746612,tofi 55 gr. negro,0.00,0
+937,77974648,tofi blanco 28 gr.,0.00,0
+938,77972279,tofi bocadito,0.00,0
+939,77974631,tofi negro 28 gr.,0.00,0
+940,100000031,tonica 237,0.00,0
+941,77939753,top line 7 atomic strong,0.00,0
+942,77932693,top line 7 mandarina,0.00,0
+943,77931764,top line 7 menta ,0.00,0
+944,77951113,top line 7 vibrant strawberry,0.00,0
+945,7790580389819,top line defense confitados ,0.00,0
+946,7790580386214,top line fruta confitados ,0.00,0
+947,7790580386313,top line menta confitados ,0.00,0
+948,7790580388317,top line menta fuerte confitados ,0.00,0
+949,77935465,top line tira change,0.00,0
+950,77916389,top line tira fruta,0.00,0
+951,77916426,top line tira menta,0.00,0
+952,77916396,top line tira menta fuerte,0.00,0
+953,7613032289966,torpedo frutilla,0.00,0
+954,7613032290092,torpedo limon,0.00,0
+955,77913357,torroncino rojo,0.00,0
+956,7790206513383,torroncino verde,0.00,0
+957,100000085,tortuguita gody,0.00,0
+958,7790040872103,traviata,0.00,0
+959,7790580316815,trenz chicle,0.00,0
+960,100000086,tres sueños chico,0.00,0
+961,8437000482536,trolli neon 50 gr.,0.00,0
+962,8437000482543,trolli sour 50 grs.,0.00,0
+963,7791014090325,tulipan,0.00,0
+964,100000136,turbina chica,0.00,0
+965,100000137,turbina grande,0.00,0
+966,100000138,turbina llavero,0.00,0
+967,77940131,turron    ,0.00,0
+968,7798040592588,turron bakugan,0.00,0
+969,100000087,tutucas,0.00,0
+970,7790017009921,twister manzana,0.00,0
+971,7790017006616,twister naranja,0.00,0
+972,7790017006715,twister pomelo,0.00,0
+973,7798130950014,twister pop,0.00,0
+974,7790017006814,twister sania,0.00,0
+975,7790310003022,twistos jamon 112 gr.,0.00,0
+976,7790310002995,twistos jamon 45 gr,0.00,0
+977,7790310003039,twistos queso 112 gr,0.00,0
+978,7790310003008,twistos queso 45 gr,0.00,0
+979,7790387130294,union yerba,0.00,0
+980,100000023,uvasal,0.00,0
+981,7798108841122,v8 mentol,0.00,0
+982,7798108841092,v8 rojo,0.00,0
+983,100000088,vaca lechera carmelos sueltos,0.00,0
+984,7790628102684,vainillas,0.00,0
+985,7622300691639,variedad 400 grs.,0.00,0
+986,100000141,vasco da gama gr x unid.,0.00,0
+987,100000142,Vasco da gama grandes x caja,0.00,0
+988,100000177,vasos,0.00,0
+989,77976109,vauquita,0.00,0
+990,7798138290167,vauquita alfajor ,0.00,0
+991,7798138290273,vauquita alfajor maizena,0.00,0
+992,7798138290037,vauquita grande ,0.00,0
+993,7798138290143,vauquita grande light,0.00,0
+994,77927361,vauquita light,0.00,0
+995,77910455,viceroy,0.00,0
+996,77920423,viceroy box,0.00,0
+997,77910622,viceroy light,0.00,0
+998,77939531,viceroy switch,0.00,0
+999,77939555,viceroy switch box,0.00,0
+1000,77908483,virginia negro,0.00,0
+1001,77908285,virginia super,0.00,0
+1002,7790040177307,vocacion,0.00,0
+1003,100000178,voligoma,0.00,0
+1004,22000006660,wrigley grandes doublemint,0.00,0
+1005,2266707,wrigley grandes fruta,0.00,0
+1006,22000001733,wrigleys chicos fruta,0.00,0
+1007,22000001726,wrigleys chicos menta,0.00,0
+1008,77904744,yapa,0.00,0
+1009,7793333013375,yelli gomitas ,0.00,0
+1010,7793940333026,yogur bebible entero frutilla,0.00,0
+1011,7793940333019,yogur bebible entero vainilla,0.00,0
+1012,7791337332027,yogur bebible ser frutilla,0.00,0
+1013,7791337332850,yogur bebible ser multifruta,0.00,0
+1014,7793940135217,yogur entero con cereal,0.00,0
+1015,7791337993235,yogur ser con cereal,0.00,0
+1016,7791337499003,yogur ser con colchon y cereal,0.00,0
+1017,7793940102882,yogur ser con fruta,0.00,0
+1018,7791337012028,yogur vasito entero frutilla,0.00,0
+1019,7791337012011,yogur vasito entero vainilla,0.00,0
+1020,7793940104022,yogur vasito ser frutilla,0.00,0
+1021,7793940104015,yogur vasito ser vainilla,0.00,0
+1022,7791249792018,yummy,0.00,0
+1023,41689300494,zippo bencina,0.00,0
+1024,41689560010,zippo mechas,0.00,0
+1025,100000143,zippo piedras,0.00,0
