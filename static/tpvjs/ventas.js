@@ -19,6 +19,7 @@ $(document).ready(function(){
 			$('<td>'+data.listado[i].categoria+'</td>').appendTo(tr);
 			$('<td>'+data.listado[i].precio+'</td>').appendTo(tr);
 		        tr.appendTo('.table');
+			tr.addClass(data.listado[i].id)
 			//$('.articulos').append('articulo:  ' + data.listado[i].nombre + '<br/>');
 		    }
 		}
