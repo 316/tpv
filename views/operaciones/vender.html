@@ -1,13 +1,14 @@
 {{extend 'layout.html'}}
 
   <script src="{{=URL('static','tpvjs/ventas.js')}}"></script>
+    response.files.append(URL('static','css/tpvcss.css'))
 <div class="subtotal">
   
 <h2>Nueva venta</h2>
 <input class="q" type="text" name="codigo" value="" />
 <button class="agregar">Agregar</button>
 
-<table class="table table-bordered table-striped table-hoover" width="" cellspacing="" cellpadding="" border="0">
+<table class="table table-bordered table-striped table-hover" width="" cellspacing="" cellpadding="" border="0">
   <thead>
     <th>Cant.</th>
     <th>Nombre</th>

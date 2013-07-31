@@ -1,4 +1,4 @@
-timestamp: 2013-07-30T11:01:46.449667
+timestamp: 2013-07-31T16:58:53.622677
 CREATE TABLE auth_user(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     first_name CHAR(128),
@@ -10,21 +10,21 @@ CREATE TABLE auth_user(
     registration_id CHAR(512)
 );
 success!
-timestamp: 2013-07-30T11:01:46.587829
+timestamp: 2013-07-31T16:58:53.765403
 CREATE TABLE auth_group(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     role CHAR(512),
     description TEXT
 );
 success!
-timestamp: 2013-07-30T11:01:46.722441
+timestamp: 2013-07-31T16:58:53.899150
 CREATE TABLE auth_membership(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     user_id INTEGER REFERENCES auth_user (id) ON DELETE CASCADE,
     group_id INTEGER REFERENCES auth_group (id) ON DELETE CASCADE
 );
 success!
-timestamp: 2013-07-30T11:01:46.858554
+timestamp: 2013-07-31T16:58:54.011317
 CREATE TABLE auth_permission(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     group_id INTEGER REFERENCES auth_group (id) ON DELETE CASCADE,
@@ -33,7 +33,7 @@ CREATE TABLE auth_permission(
     record_id INTEGER
 );
 success!
-timestamp: 2013-07-30T11:01:46.992090
+timestamp: 2013-07-31T16:58:54.123183
 CREATE TABLE auth_event(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     time_stamp TIMESTAMP,
@@ -43,7 +43,7 @@ CREATE TABLE auth_event(
     description TEXT
 );
 success!
-timestamp: 2013-07-30T11:01:47.267929
+timestamp: 2013-07-31T16:58:54.235208
 CREATE TABLE auth_cas(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     user_id INTEGER REFERENCES auth_user (id) ON DELETE CASCADE,
@@ -53,25 +53,14 @@ CREATE TABLE auth_cas(
     renew CHAR(1)
 );
 success!
-timestamp: 2013-07-30T11:01:47.426107
-CREATE TABLE articulos(
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    codigo CHAR(512),
-    nombre CHAR(512),
-    precio CHAR(512),
-    existencia CHAR(512)
-);
-success!
-timestamp: 2013-07-30T11:39:37.757605
+timestamp: 2013-07-31T16:58:54.347196
 CREATE TABLE categorias(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     nombre CHAR(512)
 );
 success!
-timestamp: 2013-07-30T11:39:37.980752
-ALTER TABLE articulos ADD categoria INTEGER REFERENCES categorias (id) ON DELETE CASCADE;
-timestamp: 2013-07-30T23:25:55.476222
-CREATE TABLE articulo(
+timestamp: 2013-07-31T16:58:54.482740
+CREATE TABLE articulos(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     codigo CHAR(512),
     nombre CHAR(512),

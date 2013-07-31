@@ -11,13 +11,26 @@ $(document).ready(function(){
 		for (var i in data.listado) { // this must be a while loop instead with a flag
 		    if (data.listado[i].id == q)
 		    {
-			var tr=$('<tr></tr>');
-			$('<td></td>').appendTo(tr);
+			//Auto count quantity of sold elements
+			var cant=$("tr #"+data.listado[i].id)
+
+			if (cant)
+			{
+			    alert('it works')
+			    
+			}
+			else
+			{
+			    alert('doesnt')
+			}
+			//invoice body
+			var tr=$('<tr id="'+data.listado[i].id+'"></tr>');
+			$('<td class="cant">'+cant+'</td>').appendTo(tr);
 			$('<td>'+data.listado[i].nombre+'</td>').appendTo(tr);
 			$('<td>'+data.listado[i].precio+'</td>').appendTo(tr);
 			$('<td></td>').appendTo(tr);
 		        tr.appendTo('.table');
-			tr.addClass(data.listado[i].id)
+			$(tr).addClass(data.listado[i].id)
 		    }
 		}
 	    }
@@ -29,3 +42,4 @@ $(document).ready(function(){
 	
     });
 });
+
