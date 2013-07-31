@@ -30,4 +30,4 @@ Todo, aunque basicamente y en detalle:
 - Cierres diarios
 - Definición de cantidad minima de articulo
 - Notificaciones varias
--  ....
+- y mas
