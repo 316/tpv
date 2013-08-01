@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(".q").focus();
-    $(".agregar").click(function() {
+    $(".q").change(function() {
 	var q = $(".q").val();
 	$.ajax({ // ajax call starts
 	    url: '/tpv/operaciones/listado.json', // JQuery loads query generated json
@@ -8,8 +8,10 @@ $(document).ready(function(){
 	    dataType: 'json', // Choosing a JSON datatype
 	    success: function(data) // Variable data contains the data we get from serverside
 	    {
+		var i=1;
+		
 		for (var i in data.listado) { // this must be a while loop instead with a flag
-		    if (data.listado[i].id == q)
+		    if (data.listado[i].codigo == q)
 		    {
 			//Auto count quantity of sold elements
 			var cuenta=$("tr#"+q).length;
@@ -24,7 +26,7 @@ $(document).ready(function(){
 			else // when an item is inserted for first time creates a new row
 			{
 			    var cant=1;
-			    var tr=$('<tr id="'+data.listado[i].id+'"></tr>');
+			    var tr=$('<tr id="'+data.listado[i].codigo+'"></tr>');
 			    $('<td class="cant" style="text-align:center;">'+cant+'</td>').appendTo(tr);
 			    $('<td>'+data.listado[i].nombre+'</td>').appendTo(tr);
 			    $('<td class="punit" style="text-align:right;">'+(data.listado[i].precio*1).toFixed(2)+'</td>').appendTo(tr);
@@ -32,6 +34,7 @@ $(document).ready(function(){
 		            tr.appendTo('.table');
 			    
 			}
+			
 		    }
 		}
 		//Here we set total, by summing all subtotal columns
