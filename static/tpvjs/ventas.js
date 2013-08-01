@@ -19,7 +19,7 @@ $(document).ready(function(){
 			    var punit=$("tr#"+q+" .punit").text(); 
 			    cant=++cant;
 			    $("tr#"+q+" .cant").text(cant);
-			    $("tr#"+q+" .subtotal").text(punit*cant); // this updates subtotal column
+			    $("tr#"+q+" .subtotal").text((punit*cant).toFixed(2)); // this updates subtotal column
 			}
 			else // when an item is inserted for first time creates a new row
 			{
@@ -28,7 +28,7 @@ $(document).ready(function(){
 			    $('<td class="cant">'+cant+'</td>').appendTo(tr);
 			    $('<td>'+data.listado[i].nombre+'</td>').appendTo(tr);
 			    $('<td class="punit">'+data.listado[i].precio+'</td>').appendTo(tr);
-			    $('<td class="subtotal">'+cant*data.listado[i].precio+'</td>').appendTo(tr); //this creates first value to subtotal colum
+			    $('<td class="subtotal">'+(cant*data.listado[i].precio).toFixed(2)+'</td>').appendTo(tr); //this creates first value to subtotal colum
 		            tr.appendTo('.table');
 			    
 			}
@@ -44,7 +44,7 @@ $(document).ready(function(){
 		    if(!isNaN(value) && value.length != 0) {
 			sum += parseFloat(value);
 		    }
-		    $(".total").text(sum);
+		    $(".total").text((sum).toFixed(2));
 		});
 	    }
 	});
