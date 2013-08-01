@@ -13,26 +13,32 @@ $(document).ready(function(){
 		    {
 			//Auto count quantity of sold elements
 			var cuenta=$("tr#"+q).length;
-			if (cuenta)
+			if (cuenta) //if the item already exist adds one to cant colum, so is no need for manual amount input
 			{
-			    var cant=+($("tr#"+q+" td .cant").text());
-			    cant=cant++;
+			    var cant=$("tr#"+q+" .cant").text();
+			    cant=++cant;
+			    $("tr#"+q+" .cant").text(cant);
 			    alert(cant);
 			}
-			else
+			else // when an item is inserted for first time creates a new row
 			{
 			    var cant=1;
-
-			    alert(cant+1);
+			    var tr=$('<tr id="'+data.listado[i].id+'"></tr>');
+			    $('<td class="cant">'+cant+'</td>').appendTo(tr);
+			    $('<td>'+data.listado[i].nombre+'</td>').appendTo(tr);
+			    $('<td>'+data.listado[i].precio+'</td>').appendTo(tr);
+			    $('<td></td>').appendTo(tr);
+		            tr.appendTo('.table');
+			    
+			    alert('es el primero!');
 			}
 			//invoice body
-			var tr=$('<tr id="'+data.listado[i].id+'"></tr>');
-			$('<td class="cant">'+cant+'</td>').appendTo(tr);
-			$('<td>'+data.listado[i].nombre+'</td>').appendTo(tr);
-			$('<td>'+data.listado[i].precio+'</td>').appendTo(tr);
-			$('<td></td>').appendTo(tr);
-		        tr.appendTo('.table');
-			$(tr).addClass(data.listado[i].id);
+			// var tr=$('<tr id="'+data.listado[i].id+'"></tr>');
+			// $('<td class="cant">'+cant+'</td>').appendTo(tr);
+			// $('<td>'+data.listado[i].nombre+'</td>').appendTo(tr);
+			// $('<td>'+data.listado[i].precio+'</td>').appendTo(tr);
+			// $('<td></td>').appendTo(tr);
+		        // tr.appendTo('.table');
 		    }
 		}
 	    }
