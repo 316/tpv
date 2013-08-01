@@ -31,3 +31,8 @@ Todo, aunque basicamente y en detalle:
 - Definición de cantidad minima de articulo
 - Notificaciones varias
 - y mas
+
+Instalacion
+===========
+
+Esta realizado utilizando el framework web2py, por lo cual solo es necesario clonar este repositorio en web2py/applications, luego visitamos http://localhost:8000/tpv et voíla!
