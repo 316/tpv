@@ -16,9 +16,10 @@ $(document).ready(function(){
 			if (cuenta) //if the item already exist adds one to cant colum, so is no need for manual amount input
 			{
 			    var cant=$("tr#"+q+" .cant").text();
+			    var punit=$("tr#"+q+" .punit").text(); 
 			    cant=++cant;
 			    $("tr#"+q+" .cant").text(cant);
-			    alert(cant);
+			    $("tr#"+q+" .subtotal").text(punit*cant); // this updates subtotal column
 			}
 			else // when an item is inserted for first time creates a new row
 			{
@@ -26,26 +27,29 @@ $(document).ready(function(){
 			    var tr=$('<tr id="'+data.listado[i].id+'"></tr>');
 			    $('<td class="cant">'+cant+'</td>').appendTo(tr);
 			    $('<td>'+data.listado[i].nombre+'</td>').appendTo(tr);
-			    $('<td>'+data.listado[i].precio+'</td>').appendTo(tr);
-			    $('<td></td>').appendTo(tr);
+			    $('<td class="punit">'+data.listado[i].precio+'</td>').appendTo(tr);
+			    $('<td class="subtotal">'+cant*data.listado[i].precio+'</td>').appendTo(tr); //this creates first value to subtotal colum
 		            tr.appendTo('.table');
 			    
-			    alert('es el primero!');
 			}
-			//invoice body
-			// var tr=$('<tr id="'+data.listado[i].id+'"></tr>');
-			// $('<td class="cant">'+cant+'</td>').appendTo(tr);
-			// $('<td>'+data.listado[i].nombre+'</td>').appendTo(tr);
-			// $('<td>'+data.listado[i].precio+'</td>').appendTo(tr);
-			// $('<td></td>').appendTo(tr);
-		        // tr.appendTo('.table');
 		    }
 		}
+		//Here we set total, by summing all subtotal columns
+		var sum = 0;
+		// iterate through each td based on class and add the values
+		$(".subtotal").each(function() {
+		    
+		    var value = $(this).text();
+		    // add only if the value is number
+		    if(!isNaN(value) && value.length != 0) {
+			sum += parseFloat(value);
+		    }
+		    $(".total").text(sum);
+		});
 	    }
 	});
 	$(".q").val("");
 	$(".q").focus();
-	$(".total").text('3434,34');
 	return false; // keeps the page from not refreshing 
 	
     });
