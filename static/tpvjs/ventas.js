@@ -25,10 +25,10 @@ $(document).ready(function(){
 			{
 			    var cant=1;
 			    var tr=$('<tr id="'+data.listado[i].id+'"></tr>');
-			    $('<td class="cant">'+cant+'</td>').appendTo(tr);
+			    $('<td class="cant" style="text-align:center;">'+cant+'</td>').appendTo(tr);
 			    $('<td>'+data.listado[i].nombre+'</td>').appendTo(tr);
-			    $('<td class="punit">'+data.listado[i].precio+'</td>').appendTo(tr);
-			    $('<td class="subtotal">'+(cant*data.listado[i].precio).toFixed(2)+'</td>').appendTo(tr); //this creates first value to subtotal colum
+			    $('<td class="punit" style="text-align:right;">'+(data.listado[i].precio*1).toFixed(2)+'</td>').appendTo(tr);
+			    $('<td class="subtotal" style="text-align:right;">'+(cant*data.listado[i].precio).toFixed(2)+'</td>').appendTo(tr); //this creates first value to subtotal colum
 		            tr.appendTo('.table');
 			    
 			}
