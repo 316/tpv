@@ -1,7 +1,7 @@
 {{extend 'layout.html'}}
 
   <script src="{{=URL('static','tpvjs/ventas.js')}}"></script>
-    response.files.append(URL('static','css/tpvcss.css'))
+  {{response.files.append(URL('static','css/tpvcss.css'))}}
 <div class="subtotal">
   
 <h2>Nueva venta</h2>

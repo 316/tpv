@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(".q").focus()
+    $(".q").focus();
     $(".agregar").click(function() {
 	var q = $(".q").val();
 	$.ajax({ // ajax call starts
@@ -12,16 +12,18 @@ $(document).ready(function(){
 		    if (data.listado[i].id == q)
 		    {
 			//Auto count quantity of sold elements
-			var cant=$("tr #"+data.listado[i].id)
-
-			if (cant)
+			var cuenta=$("tr#"+q).length;
+			if (cuenta)
 			{
-			    alert('it works')
-			    
+			    var cant=+($("tr#"+q+" td .cant").text());
+			    cant=cant++;
+			    alert(cant);
 			}
 			else
 			{
-			    alert('doesnt')
+			    var cant=1;
+
+			    alert(cant+1);
 			}
 			//invoice body
 			var tr=$('<tr id="'+data.listado[i].id+'"></tr>');
@@ -30,7 +32,7 @@ $(document).ready(function(){
 			$('<td>'+data.listado[i].precio+'</td>').appendTo(tr);
 			$('<td></td>').appendTo(tr);
 		        tr.appendTo('.table');
-			$(tr).addClass(data.listado[i].id)
+			$(tr).addClass(data.listado[i].id);
 		    }
 		}
 	    }
