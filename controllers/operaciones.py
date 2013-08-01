@@ -12,3 +12,6 @@ def listado():
 
 def vender():
     return dict()
+
+def cargar():
+    return dict()

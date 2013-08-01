@@ -28,25 +28,13 @@ $(document).ready(function(){
 			    $('<td class="cant" style="text-align:center;">'+cant+'</td>').appendTo(tr);
 			    $('<td>'+data.listado[i].nombre+'</td>').appendTo(tr);
 			    $('<td class="punit" style="text-align:right;">'+(data.listado[i].precio*1).toFixed(2)+'</td>').appendTo(tr);
-			    $('<td class="subtotal" style="text-align:right;">'+(cant*data.listado[i].precio).toFixed(2)+'</td>').appendTo(tr); //this creates first value to subtotal colum
+			    $('<td class="opciones" style="text-align:center;"><a class="btn btn-primary">Actualizar datos</a></td>').appendTo(tr); //this creates first value to subtotal colum
 		            tr.appendTo('.table');
 			    
 			}
 			
 		    }
 		}
-		//Here we set total, by summing all subtotal columns
-		var sum = 0;
-		// iterate through each td based on class and add the values
-		$(".subtotal").each(function() {
-		    
-		    var value = $(this).text();
-		    // add only if the value is number
-		    if(!isNaN(value) && value.length != 0) {
-			sum += parseFloat(value);
-		    }
-		    $(".total").text((sum).toFixed(2));
-		});
 	    }
 	});
 	$(".q").val("");
