@@ -8,6 +8,7 @@ $(document).ready(function(){
 	    dataType: 'json', // Choosing a JSON datatype
 	    success: function(data) // Variable data contains the data we get from serverside
 	    {
+		var encontrado=0;
 		for (var i in data.listado) { // this must be a while loop instead with a flag
 		    if (data.listado[i].codigo == q)
 		    {
@@ -20,6 +21,7 @@ $(document).ready(function(){
 			    cant=++cant;
 			    $("tr#"+q+" .cant").text(cant);
 			    $("tr#"+q+" .subtotal").text((punit*cant).toFixed(2)); // this updates subtotal column
+			    encontado=++encontrado;
 			}
 			else // when an item is inserted for first time creates a new row
 			{
@@ -30,11 +32,20 @@ $(document).ready(function(){
 			    $('<td class="punit" style="text-align:right;">'+(data.listado[i].precio*1).toFixed(2)+'</td>').appendTo(tr);
 			    $('<td class="opciones" style="text-align:center;"><a class="btn btn-primary">Actualizar datos</a></td>').appendTo(tr); //this creates first value to subtotal colum
 		            tr.appendTo('.table');
-			    
+			    encontado=++encontrado;
 			}
 			
 		    }
 		}
+		if (encontrado==0)
+		{
+		    var accion=confirm('El articulo no existe, desea agregarlo?');
+		    if (accion){
+			alert('yay!')
+		    }
+		}
+		    
+		
 	    }
 	});
 	$(".q").val("");
