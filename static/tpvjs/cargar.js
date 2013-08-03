@@ -41,7 +41,8 @@ $(document).ready(function(){
 		{
 		    var accion=confirm('El articulo no existe, desea agregarlo?');
 		    if (accion){
-			alert('yay!')
+			//$('#dialog').dialog(); 
+			$('#myModal').open()
 		    }
 		}
 		    
