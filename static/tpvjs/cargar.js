@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $(".q").focus();
+    $("input[type=submit]").addClass("btn btn-primary");
     $(".q").change(function() {
 	var q = $(".q").val();
 	$.ajax({ // ajax call starts
@@ -36,17 +37,20 @@ $(document).ready(function(){
 			}
 			
 		    }
-		}
+		} 
 		if (encontrado==0)
 		{
 		    var accion=confirm('El articulo no existe, desea agregarlo?');
 		    if (accion){
 			//$('#dialog').dialog(); 
-			$('#myModal').open()
+			$("#agregarnuevo").modal("show");
+			// $("input[type=submit]").click()(function (){
+			//     alert($("form").find(".error_wrapper"))
+			// 	    //$("input[type=submit]").addClass("btn btn-primary");
+				    
+			// }).delay(800);
 		    }
 		}
-		    
-		
 	    }
 	});
 	$(".q").val("");

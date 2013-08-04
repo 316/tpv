@@ -23,4 +23,4 @@ def nuevo():
         response.flash="Se ha cargado el articulo"
     elif form.errors:
         response.flash="Por favor revise los datos"
-    return dict(form=form)
+    return dict(form=form) 
