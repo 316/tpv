@@ -38,21 +38,16 @@ $(document).ready(function(){
 			
 		    }
 		} 
+
 		if (encontrado==0)
 		{
 		    var accion=confirm('El articulo no existe, desea agregarlo?');
 		    if (accion){
-			//$('#dialog').dialog(); 
 			$("#agregarnuevo").modal("show");
-			// $("input[type=submit]").click()(function (){
-			//     alert($("form").find(".error_wrapper"))
-			// 	    //$("input[type=submit]").addClass("btn btn-primary");
-				    
-			// }).delay(800);
+			$("form").submit(function (){
+			}); 
 		    }
 		}
-	    }
-	});
 	$(".q").val("");
 	$(".q").focus();
 	return false; // keeps the page from not refreshing 

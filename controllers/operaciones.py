@@ -14,8 +14,14 @@ def vender():
     return dict()
 
 def cargar():
-    return dict()
-
+    agregar=SQLFORM(db.articulos)
+    
+    if agregar.process().accepted:
+        response.flash="Se ha cargado el articulo"
+    elif agregar.errors:
+        response.flash="Por favor revise los datos"
+    return dict(agregar=agregar) 
+        
 def nuevo():
     form=SQLFORM(db.articulos)
 
