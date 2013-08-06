@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(".q").focus();
-    $("input[type=submit]").addClass("btn btn-primary");
+    //$("input[type=submit]").addClass("btn btn-primary");
     $(".q").change(function() {
 	var q = $(".q").val();
 	$.ajax({ // ajax call starts
@@ -38,20 +38,20 @@ $(document).ready(function(){
 			
 		    }
 		} 
-
-		if (encontrado==0)
-		{
+		if (encontrado==0){
 		    var accion=confirm('El articulo no existe, desea agregarlo?');
-		    if (accion){
+		    if (accion)
+		    { 
 			$("#agregarnuevo").modal("show");
-			$("form").submit(function (){
-			}); 
+			// $("form").submit(function (){
+			// });
+			
 		    }
 		}
+	    }
+	});
 	$(".q").val("");
 	$(".q").focus();
 	return false; // keeps the page from not refreshing 
-	
     });
 });
-
