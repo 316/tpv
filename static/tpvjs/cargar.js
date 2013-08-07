@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(".q").focus();
-    //$("input[type=submit]").addClass("btn btn-primary");
+    $("input[type=submit]").addClass("btn btn-primary");
     $(".q").change(function() {
 	var q = $(".q").val();
 	$.ajax({ // ajax call starts
@@ -26,7 +26,7 @@ $(document).ready(function(){
 			}
 			else // when an item is inserted for first time creates a new row
 			{
-			    var cant=1;
+ 			    var cant=1;
 			    var tr=$('<tr id="'+data.listado[i].codigo+'"></tr>');
 			    $('<td class="cant" style="text-align:center;">'+cant+'</td>').appendTo(tr);
 			    $('<td>'+data.listado[i].nombre+'</td>').appendTo(tr);
@@ -42,10 +42,7 @@ $(document).ready(function(){
 		    var accion=confirm('El articulo no existe, desea agregarlo?');
 		    if (accion)
 		    { 
-			$("#agregarnuevo").modal("show");
-			// $("form").submit(function (){
-			// });
-			
+			$('#pane2').tab('show');
 		    }
 		}
 	    }
