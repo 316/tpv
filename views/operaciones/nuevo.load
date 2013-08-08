@@ -1,6 +1,7 @@
 <script type="text/javascript">
   $(document).ready(function(){
-      $("input[type=submit]").addClass("btn btn-primary");
+  $("input[type=submit]").addClass("btn btn-primary");
+  $("input[type=submit]").val("Cargar");
   });
 </script>
 {{=form}}
