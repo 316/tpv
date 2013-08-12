@@ -25,7 +25,7 @@ $(document).ready(function(){
 			    encontado=++encontrado;
 			}
 			else // when an item is inserted for first time creates a new row
-			{
+		        {
  			    var cant=1;
 			    var tr=$('<tr id="'+data.listado[i].codigo+'"></tr>');
 			    $('<td class="cant" style="text-align:center;">'+cant+'</td>').appendTo(tr);
