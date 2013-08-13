@@ -6,9 +6,9 @@ Tiene un nombre muy original, y basicamente es para control de stock y ventas en
 Features
 ========
 
-* Control de Stock
-* Carga de compras
-* Control de ventas
+* Control de Stock (10%)
+* Carga de compras (40%)
+* Control de ventas (10%)
 * Gestion de operadores
 * Sistema de autenticacion y permisos basados en roles (permisos y grupos)
 * Cierres de caja diarios
@@ -23,8 +23,20 @@ Todo, aunque basicamente y en detalle:
 - Operaciones de 
 
   * ventas
+  
+    - Auto conteo de items
+    - calculo de subtotal
+    - calculo de total
+    - calculo de vuelto
+
   * devoluciones
+  
+    - reingreso de articulos en stock
+    - emision de nota de credito
+
   * cambio
+    
+    - No se hacen
 
 - Alta y modificacion de stock
 - Cierres diarios
