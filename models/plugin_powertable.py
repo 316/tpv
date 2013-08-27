@@ -374,7 +374,7 @@ def plugin_datatable_include():
         
     if ui and not 'jquery-ui' in response.files:
          response.files.append(URL(r=request,c='static',f='plugin_powertable/ui/css/%s/jquery-ui-1.8.5.custom.css' % theme))
-         response.files.append(URL(r=request,c='static',f='plugin_powertable/ui/js/jquery-ui-1.8.5.custom.min.js'))
+         response.files.append(URL(r=request,c='static',f='plugin_powertable/ui/js/jquery-ui-1.8.24.custom.min.js'))
   
 #debugger  
 def dbg(*attributes):

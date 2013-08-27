@@ -2,9 +2,14 @@
 
 def consultar():
     fuente=db(db.articulos.id>0).select()
-    tabla=plugin_powerTable(fuente)
-    tabla.uitheme='redmond'
-    return dict(tabla=tabla)
+    tabla=plugins.powerTable
+    tabla.datasource=fuente
+#    tabla.uitheme='cupertino'
+    tabla.dtfeatures['sScrollY']='100%'
+    tabla.keycolumn='articulos.id'
+    tabla.showkeycolumn=False
+    tabla.headers='labels'
+    return dict(tabla=tabla.create())
 
 def listado():
 
